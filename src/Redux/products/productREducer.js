@@ -1,7 +1,8 @@
- import { products } from "../../cartPOC/data";
+ import { products,coupons } from "../../cartPOC/data";
 
  let initialState={
      allproducts:products,
+     coupons:coupons,
  }
 function productREducer(state=initialState,action){
     switch(action.type){

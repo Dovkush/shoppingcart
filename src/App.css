@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body{
+  margin: 0px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +14,17 @@
     animation: App-logo-float infinite 3s ease-in-out;
   }
 }
-
+.navtext{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: xx-large;
+  
+}
+.CartText{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: large; 
+}
 .App-header {
   min-height: 100vh;
   display: flex;
